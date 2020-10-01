@@ -7,5 +7,5 @@ func Required(mass float64) float64 {
 	if mass <= 0 {
 		return 0
 	}
-	return math.Floor(float64(mass)/3) - 2
+	return math.Floor(mass/3) - 2
 }
